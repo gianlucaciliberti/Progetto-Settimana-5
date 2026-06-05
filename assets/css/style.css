@@ -26,4 +26,170 @@ a {
 }
 
 
+
 /* Aggiungi qui le tue regole, mobile-first. */
+#site-header {
+  background-color: #fff;
+}
+
+#site-header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  color: #1f7a4d;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.menu a {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  #site-header .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+  }
+
+  .menu {
+    margin: 0;
+  }
+}
+
+.hero {
+  display: flex;
+  background-color: #1f7a4d;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 6rem 1rem;
+}
+
+.hero-content {
+  max-width: 992px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1rem;
+  margin: 0;
+  max-width: 620px;
+}
+
+.button {
+  display: inline-block;
+  background-color: white;
+  color: #1f7a4d;
+  padding: 0.8rem 1.5rem;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: 0.2 ease;
+}
+
+@media screen and (min-width: 768px) { /*Da modificare*/
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
+
+/*@media screen and (min-width: 768px) {
+}*/
+
+
+
+.services {
+  padding: 4rem 1rem;
+  background-color: #fafafa;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0 0 2.5rem;
+  font-weight: bold;
+  color: #1f7a4d;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.service-logo {
+  font-size: 2rem;
+  color: #1f7a4d;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 0;
+  color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  .services-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  
+
+}
+
+

@@ -29,7 +29,7 @@ a {
 
 /* Aggiungi qui le tue regole, mobile-first. */
 
-/*Header*/
+/*HEADER*/
 #site-header {
   background-color: #fff;
 }
@@ -72,6 +72,7 @@ a {
   border-radius: 8px;
 }
 
+/*FUNZIONI ACTIVE IN 576 E 768, non c'è hover in dispositivi mobili*/
 .menu a:active {
   background-color: #EBFAF2;
   color: #1f7a4d;
@@ -90,6 +91,7 @@ a {
   }
 }
 
+/*FUNZIONI HOVER A PARTIRE DA 992*/
 @media screen and (min-width: 992px) {
   .menu a:hover {
     background-color: #EBFAF2;
@@ -98,7 +100,7 @@ a {
 }
 
 
-/*Hero section*/
+/*HERO SECTION*/
 .hero {
   display: flex;
   background-color: #1f7a4d;
@@ -159,7 +161,7 @@ a {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (min-width: 768px) { /*Da modificare*/
+@media screen and (min-width: 768px) { 
   .hero h1 {
     font-size: 3rem;
   }
@@ -176,7 +178,7 @@ a {
 }
 
 
-/*Servizi*/
+/*SERVIZI*/
 .services {
   padding: 4rem 1rem;
   background-color: #fafafa;
